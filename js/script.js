@@ -46,6 +46,6 @@ function showSlide(n){
     // console.log('indexSlide =' + indexSlide);
 }
 
-//setInterval(()=>nextSlide(1),3000);
+setInterval(()=>nextSlide(1),3000);
 
 document.getElementById('tombol-next').addEventListener( "click" , () => nextSlide(1));
